@@ -23,8 +23,3 @@ app.use('/', authRoutes);
 pickObj();
 // console.log(obj.words);
 // axiosGet();
-
-
-app.listen(3001, () =>{
-    console.log("Connected to port 3001");
-})
